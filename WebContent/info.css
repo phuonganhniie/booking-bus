@@ -1,0 +1,99 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+  font-family: system-ui, sans-serif;
+  
+  box-sizing:border-box;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+fieldset {
+  padding: 32px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  
+  
+  
+}
+
+legend {
+  width: 260px;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-left: -16px;
+  padding: 0 16px;
+}
+
+#navbar{
+    background-color: #0D0D0D;
+    height: 60px;
+}
+#navbr{
+    height: 100px;
+}
+#logo{
+  height: 50px; 
+  width: 100px;
+}
+.nav-link{
+  color: #ADADAD;
+
+}
+.nav-link:hover, .nav-link:active {
+  color: #990000;
+}
+#login:hover, #login:active{
+  color: #990000;
+  background-color: black;
+  border-color: #990000;
+}
+#footer{
+  height: 350px;
+  background-color: #1A1A1A;
+}
+#footer .container{
+  padding: 32px 0;
+  height: 100%;
+}
+#contact{
+  background-image: url(map.png);
+  background-size: contain;
+}
+#footer h3{
+  border-bottom: 2px solid #990000;
+  width: 28%;
+  padding-bottom: 15px;
+  margin-bottom: 32px;
+}
+
+#footer ul{
+  list-style-type: none;
+  padding: 0 15px;
+}
+#footer li{
+  margin: 0 0 15px;
+}
+#service{
+  height: 100px;
+  width: 124px;
+  margin-bottom: 35px;
+}
+
+#footer a{
+  text-decoration: none;
+  color: white;
+}
+#footer a:hover{
+  color: #990000;
+}
